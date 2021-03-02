@@ -26,7 +26,6 @@ const App = () => {
     });
 
     if (attack.length !== badGuys.length) {
-      console.log("!", attack);
       setBadGuys(attack);
       setInputColours([]);
     } else if (defence.length !== incoming.length) {

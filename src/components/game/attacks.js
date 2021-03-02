@@ -7,8 +7,6 @@ const Attacks = ({ attacks, enemies }) => {
   const options = [zap1, zap2];
   const z = options[Math.floor(Math.random() * options.length)];
 
-  //console.log(attacks.incoming);
-
   return (
     <div className={container}>
       {attacks.incoming.map((o) => {

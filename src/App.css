@@ -64,22 +64,7 @@ body {
   margin: 2em auto; /* Little margin */
   /* animation: badGuyArrival 1s; */
 }
-@keyframes badGuyAttack1 {
-  0% {
-    transform: translate(-150px, 60px);
-  }
-  100% {
-    transform: translate(0px, 450px);
-  }
-}
-@keyframes badGuyAttack2 {
-  0% {
-    transform: translate(150px, 60px);
-  }
-  100% {
-    transform: translate(0px, 600px);
-  }
-}
+
 .zap {
   animation-fill-mode: forwards;
   animation-timing-function: linear;
